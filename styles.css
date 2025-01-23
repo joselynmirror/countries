@@ -1,14 +1,17 @@
-h2,p{
+h2,
+p {
     margin: 0;
 }
-body{
+
+body {
     display: flex;
     flex-wrap: wrap;
     gap: 16px;
     font-family: 'Open Sans';
     justify-content: center;
 }
-div{
+
+div {
     background: #a471ac;
     width: 350px;
     height: 350px;
@@ -18,14 +21,17 @@ div{
     justify-content: center;
     align-items: center;
     border-radius: 4px;
-    box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.75);
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.75);
 }
-img{
+
+img,
+video {
     width: 90%;
     height: 200px;
     object-fit: contain;
 }
-h2{
+
+h2 {
     height: 66px;
     align-content: center;
     text-align: center;
