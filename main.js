@@ -1,5 +1,5 @@
 console.log('Paises1')
-const Pag = fetch('https://restcountriesx.com/v3.1/independent?status=true')
+const Pag = fetch('https://restcountries.com/v3.1/independent?status=true')
 /*    Pag.then(function(res){
         console.log("3",res)
         const res2= res.json()
@@ -41,7 +41,7 @@ Pag
         const population = document.createElement('p')
         population.textContent = 'Se ha producido un error al cargar la página'
         const image = document.createElement('video')
-        image.src = './robot-error.webm'
+        image.src = '/robot-error.webm'
 
         container.appendChild(name)
         container.appendChild(population)
